@@ -3,6 +3,7 @@
 
 ## About
 AndProGuard 是为了方便Android开发者防混淆配置的库，只要使用了该库，就没必要在主工程配置防混淆配置，该库也会继续完善通用的第三方库，目前该库支持以下库：
+- [AndProGuard-Alipay.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Alipay.pro)
 - [AndProGuard-Amap.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Amap.pro)
 - [AndProGuard-BaiduMap.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-BaiduMap.pro)
 - [AndProGuard-Bugly.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Bugly.pro)
@@ -15,6 +16,7 @@ AndProGuard 是为了方便Android开发者防混淆配置的库，只要使用�
 - [AndProGuard-Okhttp.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Okhttp.pro)
 - [AndProGuard-Retrofit.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Retrofit.pro)
 - [AndProGuard-Rxjava.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Rxjava.pro)
+- [AndProGuard-Tencent.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Tencent.pro)
 - [AndProGuard-Umeng.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Umeng.pro)
 - [AndProGuard-Zxing.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Zxing.pro)
 
