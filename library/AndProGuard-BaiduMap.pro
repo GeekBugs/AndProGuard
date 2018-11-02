@@ -1,9 +1,9 @@
-#百度地图
- -keep class com.baidu.** {*;}
- -keep class mapsdkvi.com.** {*;}
- -dontwarn com.baidu.**
+# http://lbsyun.baidu.com/index.php?title=androidsdk/qa
+# 百度地图
+-keep class com.baidu.** {*;}
+-keep class vi.com.gdi.bgl.android.**{*;}
 
-#百度导航
+# 百度导航
 -dontoptimize
 -ignorewarnings
 -keeppackagenames com.baidu.**
@@ -28,7 +28,7 @@
 -keep public class * extends com.google.android.support.v4.**
 -keep public class * extends com.google.android.support.v4.app.Fragment
 
-#navisdk tts
+# navisdk tts
 -keep class com.baidu.speechsynthesizer.**{*;}
 -keep interface com.baidu.speechsynthesizer.**{*;}
 -dontwarn com.baidu.speechsynthesizer.**
@@ -40,6 +40,6 @@
 -keepattributes JavascriptInterface
 -keepattributes *Annotation*
 
-#baidu tts
+# baidu tts
 -keep class com.baidu.tts.**{*;}
 -keep class com.baidu.speechsynthesizer.**{*;}
