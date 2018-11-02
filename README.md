@@ -15,5 +15,5 @@ ProGuard Config for Android Libraries
 #### Step 2. Add the dependency
 ```
 	dependencies {
-	       compile 'com.github.F1ReKing:DashView:1.2.1'
+	       compile 'com.github.F1ReKing:AndProGuard:1.0.0'
 	}
