@@ -1,6 +1,16 @@
-# AndProGuard
-ProGuard Config for Android Libraries
 ## About
+AndProGuard 是为了方便Android开发者防混淆配置的库，只要使用了该库，就没必要在主工程配置防混淆配置，该库也会继续完善通用的第三方库，目前该库支持以下库：
+- [AndProGuard-Amap.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Amap.pro)
+- [AndProGuard-BaiduMap.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-BaiduMap.pro)
+- [AndProGuard-ButterKnife.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-ButterKnife.pro)
+- [AndProGuard-fastjson.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-fastjson.pro)
+- [AndProGuard-Glide.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Glide.pro)
+- [AndProGuard-Gson.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Gson.pro)
+- [AndProGuard-Okhttp.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Okhttp.pro)
+- [AndProGuard-okio.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-okio.pro)
+- [AndProGuard-Retrofit.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Retrofit.pro)
+- [AndProGuard-Rxjava.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Rxjava.pro)
+- [AndProGuard-umeng.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-umeng.pro)
 
 ## Use
 ### 1. Add dependency
