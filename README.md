@@ -5,10 +5,12 @@
 AndProGuard 是为了方便Android开发者防混淆配置的库，只要使用了该库，就没必要在主工程配置防混淆配置，该库也会继续完善通用的第三方库，目前该库支持以下库：
 - [AndProGuard-Amap.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Amap.pro)
 - [AndProGuard-BaiduMap.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-BaiduMap.pro)
+- [AndProGuard-Bugly.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Bugly.pro)
 - [AndProGuard-ButterKnife.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-ButterKnife.pro)
 - [AndProGuard-EventBus.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-EventBus.pro)
 - [AndProGuard-Fastjson.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Fastjson.pro)
 - [AndProGuard-Glide.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Glide.pro)
+- [AndProGuard-GreenDAO.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-GreenDAO.pro)
 - [AndProGuard-Gson.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Gson.pro)
 - [AndProGuard-Okhttp.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Okhttp.pro)
 - [AndProGuard-Retrofit.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Retrofit.pro)
