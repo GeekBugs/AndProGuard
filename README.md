@@ -1,3 +1,6 @@
+[![](https://jitpack.io/v/F1ReKing/AndProGuard.svg)](https://jitpack.io/#F1ReKing/AndProGuard)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/F1ReKing/AndProGuard/blob/master/LICENSE)
+
 ## About
 AndProGuard 是为了方便Android开发者防混淆配置的库，只要使用了该库，就没必要在主工程配置防混淆配置，该库也会继续完善通用的第三方库，目前该库支持以下库：
 - [AndProGuard-Amap.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Amap.pro)
@@ -28,7 +31,7 @@ AndProGuard 是为了方便Android开发者防混淆配置的库，只要使用�
 #### Step 2. Add the dependency
 ```
 	dependencies {
-	       compile 'com.github.F1ReKing:AndProGuard:1.0.0'
+	       compile 'com.github.F1ReKing:AndProGuard:Tag'
 	}
 ```
 
