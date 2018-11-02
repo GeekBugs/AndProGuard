@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.f1reking'
+
+android {
+  compileSdkVersion 28
+
+  defaultConfig {
+    minSdkVersion 14
+  }
+
+  buildTypes {
+    release {
+      consumerProguardFiles file('.').listFiles(new FilenameFilter() {
+        @Override
+        boolean accept(File dir, String name) {
+          return name.endsWith('.pro')
+        }
+      })
+    }
+  }
+}
