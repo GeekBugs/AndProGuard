@@ -38,10 +38,10 @@ AndProGuard 是为了方便Android开发者防混淆配置的库，只要使用�
 #### Step 2. Add the dependency
 ```
 	dependencies {
-	       compile 'com.github.F1ReKing:AndProGuard:Tag'
+	       compile 'com.github.F1ReKing:AndProGuard:x.y.z'
 	}
 ```
-
+Current latest version: [![](https://jitpack.io/v/F1ReKing/AndProGuard.svg)](https://jitpack.io/#F1ReKing/AndProGuard)
 ### 2. set your gradle config 'minifyEnabled true'
 
 ## License
