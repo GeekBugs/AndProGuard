@@ -3,6 +3,7 @@
 
 ## About
 AndProGuard 是为了方便Android开发者防混淆配置的库，只要使用了该库，就没必要在主工程配置防混淆配置，该库也会继续完善通用的第三方库，目前该库支持以下库：
+- [AndProGuard-base.pro(基本配置)](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-base.pro)
 - [AndProGuard-Alipay.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Alipay.pro)
 - [AndProGuard-Amap.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-Amap.pro)
 - [AndProGuard-BaiduMap.pro](https://github.com/F1ReKing/AndProGuard/blob/master/library/AndProGuard-BaiduMap.pro)
