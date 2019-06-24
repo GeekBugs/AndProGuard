@@ -1,11 +1,17 @@
-# http://greenrobot.org/eventbus/documentation/proguard/
--keepattributes *Annotation*
--keepclassmembers class * {
-    @org.greenrobot.eventbus.Subscribe <methods>;
+# http://greenrobot.org/greendao/documentation//technical-faq
+### greenDAO 3
+-keepclassmembers class * extends org.greenrobot.greendao.AbstractDao {
+public static java.lang.String TABLENAME;
 }
--keep enum org.greenrobot.eventbus.ThreadMode { *; }
-
-# Only required if you use AsyncExecutor
--keepclassmembers class * extends org.greenrobot.eventbus.util.ThrowableFailureEvent {
-    <init>(java.lang.Throwable);
+-keep class **$Properties
+ 
+# If you do not use SQLCipher:
+-dontwarn org.greenrobot.greendao.database.**
+# If you do not use RxJava:
+-dontwarn rx.**
+ 
+### greenDAO 2
+-keepclassmembers class * extends de.greenrobot.dao.AbstractDao {
+public static java.lang.String TABLENAME;
 }
+-keep class **$Properties
